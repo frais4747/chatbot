@@ -1,0 +1,379 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai, unpriBot disini, ada yg bisa kita bantu?",
+        "Hai! unpriBot disini. Mau tau informasi tentang apa nih?",
+        "Hallo! Saya unpriBot, salam kenal ya! Mau tau tentang kampus Unpri kan?",
+        "Hello! Ini unpriBot. Lagi kepo tentang kampus unpri ya?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati:)"
+      ]
+    },
+    {
+      "tag": "penjelasan_kampus_unpri",
+      "patterns": [
+        "Apa itu UNPRI?"
+      ],
+      "responses": [
+        "Universitas Prima Indonesia atau yang biasa di sebut dengan unpri Medan, merupakan salah satu perguruan tinggi swasta unggulan yang ada di Kota Medan, Sumatera Utara."
+      ]
+    },
+    {
+      "tag": "keungggulan_kampus_unpri",
+      "patterns": [
+        "Apa Keunggulan UNPRI?",
+        "Apa Keunggulan universitas prima indonesia?"
+      ],
+      "responses": [
+        "Keunggulan Universitas Prima Indonesia yaitu memiliki fasilitas Sarana dan Prasarana yang baik seperti Gedung kampus yang bersih dan sangat nyaman,ruang kelas full AC,perpustakaan yang bersih dan nyaman.Adanya Rumah Sakit yang dapat dijadikan sarana pembelajaran,memiliki pengajar yang ahli dan Profesional dibidangnya sehingga memudahkan mahasiswa untuk belajar. Salah satu kampus yang paling aktif dan selalu melibatkan mahasiswanya dalam kegiatannya."
+      ]
+    },
+    {
+      "tag": "alamat_kampus_unpri",
+      "patterns": [
+        "Dimana alamat lengkap UNPRI?",
+        "Alamat UNPRI?",
+        "lokasi Unpri"
+      ],
+      "responses": [
+        "Jl. Sampul No.4, Sei Putih Bar., Kec. Medan Petisah, Kota Medan, Sumatera Utara 20118"
+      ]
+    },
+    {
+      "tag": "fakultas_kampus_unpri",
+      "patterns": [
+        "Fakultas apa saja yang ada di UNPRI?",
+        "Fakultas di UNPRI"
+      ],
+      "responses": [
+        "Di UNPRI memiliki banyak Fakultas yaitu Fakultas Ekonomi,Fakultas Kedokteran,Fakultas Agroteknologi,Fakultas Kedokteran Gigi,Fakultas Kesehatan Masyarakat,Fakultas Keperawatan dan Kebidanan,Fakultas Teknologi dan Ilmu Komputer,Fakultas Keguruan dan Ilmu Pendidikan,Fakultas Hukum, dan Fakultas Psikologi:"
+      ]
+    },
+    {
+      "tag": "minat_bakat_",
+      "patterns": [
+        "saya bingung mau masuk prodi apa",
+        "apakah ada rekomendasi prodi untuk saya?",
+        "program studi apa yang cocok dengan saya?"  
+      ],
+      "responses": [
+        "apa minat,bakat,hobi,dan cita-citamu?"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_manajemen",
+      "patterns": [
+        "saya dapat memimpin",
+        "saya menguasai matematika dasar dengan baik",
+        "saya suka berbisnis",
+        "saya dapat bertanggung jawab",
+        "saya ingin menjadi seorang bos/pemimpin"
+
+      ],
+      "responses": [
+        "Salah satu program studi yang cocok dengan kamu adalah Manajemen pada Fakultas Ekonomi,"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_akuntansi",
+      "patterns": [
+        "saya suka menghitung uang",
+        "saya dapat mengatur keuangan",
+        "saya teliti dan loyalitas",
+        "ingin menjadi akuntan diperusahaan"
+      ],
+      "responses": [
+        "Saya merekomendasikan program studi Akuntansi di Fakultas Ekonomi"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_keuangan_dan_perbankan",
+      "patterns": [
+        "saya ingin bekerja di bank",
+        "saya suka menyimpan uang",
+        "saya percaya diri,mampu berkomunikasi dengan baik",
+        "penampilan saya menarik dan rapi"
+      ],
+      "responses": [
+        "Program studi yang cocok untukmu yaitu Keuangan dan Perbankan di Fakultas Ekonomi"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_farmasi",
+      "patterns": [
+        "saya ingin membuat obat",
+        "saya ingin meresepkan obat",
+        "saya ingin menjadi apoteker"
+      ],
+      "responses": [
+        "Rekomenadi jurusan yang cocok untukmu yaitu Farmasi Klinis di Fakultas Kedokteran"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_dokter_gigi",
+      "patterns": [
+        "saya ingin menjadi dokter gigi",
+        "saya ingin memperindah gigi seseorang",
+        "saya ingin mengobati gigi",
+        "memperbaiki gigi"
+      ],
+      "responses": [
+        "Jurusan yang cocok untukmu yaitu profesi Dokter Gigi di Fakultas Kedokteran"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_dokter",
+      "patterns": [
+        "saya ingin menjadi dokter",
+        "saya bisa merawat orang yang sedang sakit",
+        "saya ingin menyembuhkan orang yang lagi sakit"
+      ],
+      "responses": [
+        "Rekomendasi jurusan yang cocok untukmu yaitu Profesi Dokter di Fakultas Kedokteran."
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_kesehatan_masyarakat",
+      "patterns": [
+        "Saya ingin menjadi Promotor Kesehatan",
+        "Saya ingin bekerja di bidang Kesehatan",
+        "Saya senang mengobati seseorang"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Kesehatan Masyarakat pada Fakultas Kedokteran"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_keperawatan",
+      "patterns": [
+        "Saya suka merawat seseorang",
+        "Saya suka menjaga seseorang yang sedang sakit",
+        "saya ingin membantu seorang dokter"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Keperawatan pada Fakultas Keperawatan dan Kebinanan"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_kebinanan",
+      "patterns": [
+        "Saya suka merawat bayi",
+        "Saya tertarik terhadap ibu yang hamil",
+        "saya ingin membantu seorang ibu melahirkan",
+        "saya suka dengan bayi"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Kebinanan pada Fakultas Keperawatan dan Kebinanan"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_Teknik_Industri",
+      "patterns": [
+        "Saya suka menulis",
+        "Saya tertarik bekerja dipabrik",
+        "saya ingin menjadi Production Engineer",
+        "saya ingin belajar mengelolah suatu perusahaan"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Teknik Industri pada Fakultas Teknologi dan Ilmu Komputer"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_Teknik_Elektro",
+      "patterns": [
+        "Saya suka listrik",
+        "Saya tertarik belajar listrik",
+        "Saya suka fisika",
+        "saya ingin bekerja di PLN"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Teknik Elektro pada Fakultas Teknologi dan Ilmu Komputer"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_Teknik_Informatika",
+      "patterns": [
+        "Saya ingin belajar pemprograman",
+        "Saya suka komputer",
+        "saya ingin menjadi Konsultan IT",
+        "saya ingin suka IT",
+        "saya bisa ngoding"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Teknik Informatika pada Fakultas Teknologi dan Ilmu Komputer"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_Sistem_Informasi",
+      "patterns": [
+        "Saya ingin bekerja di E-Commerce",
+        "Saya dapat menjalankan komputer",
+        "Saya suka ngoding",
+        "saya ingin menjadi IT",
+        "saya ingin menjdi Data Scientist "
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Sistem Informasi pada Fakultas Teknologi dan Ilmu Komputer"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_Desain_Komunikasi_Visual",
+      "patterns": [
+        "Saya bisa desain",
+        "Saya ingin belajar desain",
+        "Saya tertarik dengan desain",
+        "Saya suka fotografi",
+        "Saya ingin membuat game",
+        "saya dapat mengedit video",
+        "saya ingin menjadi editor handal"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Desain Komunikasi Visual pada Fakultas Teknologi dan Ilmu Komputer"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_profesi_Arsitektur",
+      "patterns": [
+        "Saya bisa menggambar",
+        "Saya suka menggambar",
+        "Saya tertarik pada desain",
+        "Saya ingin menjadi Arsitek",
+        "Saya ingin menjadi kontraktor",
+        "saya ingin merancang bangunan",
+        "saya ingin menjadi editor handal"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Arsitektur pada Fakultas Teknologi dan Ilmu Komputer"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_Agroteknologi",
+      "patterns": [
+        "Saya suka biologi dan kimia",
+        "Saya suka pertanian",
+        "Saya suka tanaman",
+        "Saya suka budidaya tanaman",
+        "Saya ingin menjadi Ahli Bioteknologi"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Agroteknologi pada Fakultas Agro Teknologi"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_Agribisnis",
+      "patterns": [
+        "Saya tertarik pada pertanian",
+        "Saya suka bisnis pertanian",
+        "Saya suka budidaya tanaman hias",
+        "Saya ingin usaha Kebun Hidroponik"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Agribisnis pada Fakultas Agro Teknologi"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_Pendidikan_Bahasa_dan_Sastra Indonesia",
+      "patterns": [
+        "Saya ingin menjadi guru bahasa Indonesia",
+        "Saya suka bahasa",
+        "Saya ingin menjadi penulis",
+        "Saya ingin menjadi jurnalis",
+        "Saya suka membaca novel"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Pendidikan Bahasa dan Sastra Indonesia pada Fakultas Keguruan dan Ilmu Pendidikan"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_Pendidikan_Bahasa_Inggris",
+      "patterns": [
+        "Saya ingin menjadi guru bahasa Inggris",
+        "Saya bisa berbahasa Inggris",
+        "Saya ingin belajar Bahasa Inggris",
+        "Saya ingin menjadi Pemandu wisata",
+        "Saya suka belajar bahasa asing"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Pendidikan Bahasa Inggris pada Fakultas Keguruan dan Ilmu Pendidikan"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_Hukum",
+      "patterns": [
+        "Saya ingin menjadi Pengacara",
+        "Saya ingin menjadi Jaksa",
+        "Saya ingin menjadi Hakim",
+        "Saya ingin belajar tentang hukum",
+        "Saya ingin tertarik menjadi notaris",
+        "Saya suka Hukum"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Hukum pada Fakultas Hukum"
+      ]
+    },
+    {
+      "tag": "rekomendasi_jurusan_Psikologi",
+      "patterns": [
+        "Saya suka mempelajari mental seseorang",
+        "Saya ingin menjadi Psikiater",
+        "Saya ingin menjadi Psikolog",
+        "Saya suka memahami sifat seseorang"
+      ],
+      "responses": [
+        "Saya merekomendasikan jurusan Psikologi pada Fakultas Psikologi"
+      ]
+    }
+  ]
+}
